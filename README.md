@@ -1,1 +1,1 @@
-### Swedish pancakes are superior
+### 🥞 Swedish pancakes are superior
