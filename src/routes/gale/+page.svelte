@@ -31,7 +31,7 @@
 </script>
 
 <div
-	class="flex flex-col w-full max-w-[70rem] mx-auto items-center py-16 px-12 text-white relative"
+	class="flex flex-col w-full max-w-[70rem] mx-auto items-center py-20 px-12 text-white relative"
 >
 	<div class="text-center">
 		<h1 class="text-6xl font-semibold">The mod manager you've been waiting for</h1>
@@ -54,7 +54,7 @@
 	</div>
 
 	<div class="text-center">
-		<div class="flex items-center w-screen px-16 justify-center">
+		<div class="flex items-center w-screen max-w-[75rem] px-24 justify-center">
 			{#each screenshots as data, i}
 				<Screenshot {...data} selected={i === selected} />
 			{/each}
