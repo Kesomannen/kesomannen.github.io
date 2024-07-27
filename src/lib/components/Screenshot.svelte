@@ -4,4 +4,8 @@
 	export let selected: boolean;
 </script>
 
-<img {src} {alt} class="shadow-xl transition-all {!selected && 'scale-95 mx-1 -z-10'}" />
+<img
+	{src}
+	{alt}
+	class="rounded-lg transition-all shadow-4xl {selected ? '' : 'scale-95 -z-10 blur-sm'}"
+/>
