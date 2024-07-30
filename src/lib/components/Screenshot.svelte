@@ -1,11 +1,5 @@
 <script lang="ts">
-	export let src: string;
-	export let alt: string;
-	export let selected: boolean;
+	let { src, alt, blurred }: { src: string; alt: string; blurred: boolean } = $props();
 </script>
 
-<img
-	{src}
-	{alt}
-	class="rounded-lg transition-all shadow-4xl {selected ? '' : 'scale-95 -z-10 blur-sm'}"
-/>
+<img {src} {alt} class="rounded-lg transition-all shadow-4xl {blurred && 'blur-sm scale-95'}" />
