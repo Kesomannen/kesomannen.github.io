@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'cursive'],
+        sans: ['Poppins', 'sans-serif'],
       }
     },
   },

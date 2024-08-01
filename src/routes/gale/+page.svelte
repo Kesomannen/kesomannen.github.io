@@ -51,7 +51,7 @@
 	</div>
 
 	<div class="text-center">
-		<div class="flex items-center w-screen max-w-[75rem] px-24 justify-center">
+		<div class="flex items-center w-screen max-w-[75rem] px-8 justify-center">
 			{#each screenshots as data, i}
 				<Screenshot {...data} blurred={i != 1} />
 			{/each}
