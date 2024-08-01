@@ -1,5 +1,5 @@
 const GISTS_URL =
-	'https://gist.githubusercontent.com/Kesomannen/58b4f08009e7b7b5baaea253ebccb94d/raw/e08b3b8bd3070c9e756605586a4219e0b6c0b9db/latest.json';
+	'https://gist.githubusercontent.com/Kesomannen/58b4f08009e7b7b5baaea253ebccb94d/raw/latest.json';
 
 let latestVersion: string | null = null;
 
