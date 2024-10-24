@@ -13,6 +13,6 @@
 </script>
 
 <a
-	class="flex items-center justify-end font-medium hover:underline py-1 gap-2 text-blue-400 hover:text-blue-300"
+	class="flex items-center justify-end font-medium hover:underline py-1 gap-2 text-green-400 hover:text-green-300"
 	{href}><Download class="size-5" />{label}</a
 >

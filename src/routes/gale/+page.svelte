@@ -39,19 +39,19 @@
 
 	<div class="button-container flex items-center py-6 text-xl gap-2">
 		<button
-			class="flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded-xl font-medium shadow-xl"
+			class="flex items-center gap-2 text-white bg-green-700 hover:bg-green-600 px-6 py-2 rounded-xl font-medium shadow-lg"
 			onclick={() => {
 				downloadsHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
 			}}><Download />Download</button
 		>
 		<a
-			class="flex items-center gap-2 text-slate-200 bg-gray-700 hover:bg-gray-600 px-6 py-2 rounded-xl left-8 shadow-xl"
+			class="flex items-center gap-2 text-slate-200 bg-gray-700 hover:bg-gray-600 px-6 py-2 rounded-xl left-8 shadow-lg"
 			href="https://github.com/kesomannen/gale"><Github />View source</a
 		>
 	</div>
 
 	<div class="text-center">
-		<div class="flex items-center w-screen max-w-[75rem] px-8 justify-center">
+		<div class="flex items-center w-screen max-w-4xl px-8 justify-center">
 			{#each screenshots as data, i}
 				<Screenshot {...data} blurred={i != 1} />
 			{/each}
@@ -107,6 +107,7 @@
 				</div>
 			</div>
 			<div class="h-0.5 w-full bg-gray-700 my-1.5"></div>
+			<!--
 			<div class="flex items-center gap-3">
 				<Macos class="size-10" />
 				Mac
@@ -116,6 +117,7 @@
 				</div>
 			</div>
 			<div class="h-0.5 w-full bg-gray-700 my-1.5"></div>
+			-->
 			<div class="flex items-center gap-3">
 				<Linux class="size-10" />
 				Linux
