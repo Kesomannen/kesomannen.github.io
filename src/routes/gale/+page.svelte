@@ -129,6 +129,12 @@
 			</div>
 		</div>
 	</div>
+
+	<p class="text-sm">
+		By installing, you agree to the <a href="/gale/privacy" class="text-green-500 underline"
+			>Privacy Policy</a
+		>.
+	</p>
 </div>
 
 <style>
