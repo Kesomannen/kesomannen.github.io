@@ -69,8 +69,7 @@
 				<Speed class="size-12 flex-shrink-0" />
 				<div class="text-slate-300 text-lg flex-shrink text-wrap">
 					<div class="text-2xl font-medium text-white">Fast & lightweight</div>
-					Built with Rust and SvelteKit, Gale is extremely performant and responsive, while also using
-					less resources than other mod managers.
+					Built with performance in mind, Gale is extremely responsive and uses less resources than alternatives.
 				</div>
 			</div>
 			<div class="h-0.5 w-full bg-gray-700"></div>
@@ -78,8 +77,7 @@
 				<Modpack class="size-12 flex-shrink-0" />
 				<div class="text-slate-300 text-lg flex-shrink text-wrap">
 					<div class="text-2xl font-medium text-white">Modpack creator</div>
-					Export your profiles as modpacks and publish them to Thunderstore from within the app. Customize
-					the readme, changelog, included files and more.
+					Export your profiles as modpacks and publish them to Thunderstore from within the app.
 				</div>
 			</div>
 			<div class="h-0.5 w-full bg-gray-700"></div>
@@ -87,8 +85,7 @@
 				<Config class="size-12 flex-shrink-0" />
 				<div class="text-slate-300 text-lg flex-shrink text-wrap">
 					<div class="text-2xl font-medium text-white">Config editor</div>
-					Configure mods through a feature-rich and easy-to-use editor. Options are beautifully displayed
-					as dropdowns, sliders, lists and more.
+					Configure mods through a feature-rich and easy-to-use editor.
 				</div>
 			</div>
 		</div>
